@@ -9,7 +9,8 @@ services:
       - DB_NAME=training 
       - DB_HOST=db 
       - DB_USER=peserta 
-      - DB_PASS=password APP_PORT=3000
+      - DB_PASS=password 
+      - APP_PORT=3000
     links:
       - db
     ports:
