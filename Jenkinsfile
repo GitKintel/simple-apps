@@ -29,7 +29,7 @@ pipeline {
                 -Dsonar.projectKey=simple-apps \
                 -Dsonar.sources=. \
                 -Dsonar.host.url=http://172.23.13.202:9000 \
-                -Dsonar.login=sqp_636819eea3ff8d5f9db00374ab3dc1d0404470c96'''
+                -Dsonar.login=sqp_636819eea3ff8d5f9db00374ab3dc1d0404470c9'''
             }
         }
         stage('Deploy compose') {
