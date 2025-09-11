@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/IDN-Training/simple-apps.git'
+                git branch: 'main', url: 'https://github.com/GitKintel/simple-apps.git'
             }
         }
         stage('Build') {
