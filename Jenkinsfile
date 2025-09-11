@@ -1,7 +1,7 @@
 pipeline {
     agent {label 'devops1'}
     
-    tools {nodejs "nodejs 18.16.0"}
+    
 
     stages {
         stage('Checkout SCM') {
