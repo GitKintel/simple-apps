@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'devops1'}
+    agent {label 'devops1-ardyan'}
     
     
 
